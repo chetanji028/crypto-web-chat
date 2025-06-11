@@ -1,0 +1,9 @@
+ 
+.chat-bubble {
+  display: flex;
+  flex-direction: column;
+}
+
+.bubble-content {
+  word-wrap: break-word;
+}
