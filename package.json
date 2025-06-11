@@ -1,0 +1,12 @@
+{
+  "name": "crypto-web-chat",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd server && npm run dev\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "concurrently": "^8.2.2",
+    "socket.io-client": "^4.8.1"
+  }
+}

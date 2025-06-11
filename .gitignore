@@ -1,0 +1,41 @@
+# Server (Backend) Ignores
+/backend/node_modules/              # Server dependencies
+/backend/package-lock.json          # Server lock file (optional)
+/backend/yarn.lock                  # Server Yarn lock file (optional)
+/backend/dist/                      # Server build output (e.g., TypeScript)
+/backend/build/                     # Server build artifacts
+/backend/logs/                      # Server log files
+/backend/*.log                      # Server log files
+/backend/*.log.*                    # Server log backups
+
+# Client (Frontend) Ignores
+/frontend/node_modules/             # Client dependencies
+/frontend/package-lock.json         # Client lock file (optional)
+/frontend/yarn.lock                 # Client Yarn lock file (optional)
+/frontend/build/                    # React build output
+/frontend/dist/                     # Client build artifacts
+
+/frontend/.cache/                   # Parcel or other caching
+/frontend/coverage/                 # Test coverage reports
+
+# General Ignores (Shared)
+.DS_Store                           # macOS system files
+Thumbs.db                           # Windows system files
+*.tmp                               # Temporary files
+*.bak                               # Backup files
+*.swp                               # Swap files
+
+# Editor/IDE Files
+.vscode/                            # VS Code settings
+.idea/                              # IntelliJ IDEA settings
+*.suo                               # Visual Studio user options
+*.ntvs*                             # Visual Studio telemetry
+*.njsproj                           # Node.js project files
+*.sln                               # Visual Studio solution
+*.sw?
+
+# Miscellaneous
+*.pid                               # Process ID files
+*.seed                              # Seed files
+*.pid.lock                          # Lock files
+node_modules
